@@ -60,19 +60,19 @@ This project focuses on clustering products using **historical sales data** to o
 - 🏷️ New fields: **BRAND NAME**, **UNITS**, and **STD UNIT**.  
 
 ### ✨ **Correaltions of Numerical columns**
-![Correaltions Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Before%20Opreation%20Heatmap.png)
+![Correaltions Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Before%20Opreation%20Heatmap.png)
 The three scatter plots below all illustrate the relationship between Retail Transfers, Retail Sales, and Warehouse Sales for three different types of items.
- ![Correaltions Grap](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Before%20Treat%20outliears%20Retail%20Transfers%20VS%20Retail%20Sales.jpg)
+![Correaltions Grap](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Before%20Treat%20outliears%20Retail%20Transfers%20VS%20Retail%20Sales.jpg)
 In this first plot, the retail transfers have a very strong positive correlation with retail sales.
-![Correaltions Grap](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Before%20Treat%20Outlier%20Warehouse_Sales%20VS%20Retail%20Sales.jpg)
+![Correaltions Grap](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Before%20Treat%20Outlier%20Warehouse_Sales%20VS%20Retail%20Sales.jpg)
 The second plot reveals that the correlation between Warehouse Sales and Retail Sales has an evident group of higher warehouse sales occurring in tandem with a relatively moderate retail sale. 
-![Correaltions Grap](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Before%20Treat%20Outlier%20Warehouse_Sales%20VS%20Retail%20Transfers.jpg)
+![Correaltions Grap](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Before%20Treat%20Outlier%20Warehouse_Sales%20VS%20Retail%20Transfers.jpg)
 The third plot, showing the relationship between Warehouse Sales and Retail Transfers has a positive trend such that Retail Transfers increase with growing Warehouse Sales. Linear trend lines in all plots highlight positive correlations among all variables.
 
 ### ✨ **Outliers**  
 - Outliers identified in **Warehouse Sales** and **Retail Transfers**,**Retail Sales**.
   
-![Outliers](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/checked%20outlier.jpg)
+![Outliers](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/checked%20outlier.jpg)
  
 Visualization (checked_outlier.png): This barplot summary identifies features with potential outliers, thus helping to prioritize which attributes require treatment
 ---
@@ -83,17 +83,17 @@ Visualization (checked_outlier.png): This barplot summary identifies features wi
 ### 📊 **Major Insights**  
 
 1. 🛒 **Retail Sales Insights**:  
-   ![Retail Sales Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Retail%20Sales%20by%20Item%20Type.jpg)  
+   ![Retail Sales Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Retail%20Sales%20by%20Item%20Type.jpg)  
    - Wine and Beer : Wine represents 34.4% of sales, and Beer makes up 26.2%
    - Liquor : Liquor accounts for the largest portion of sales at 37.2% Liquor dominates.
    - Other categorie : The remaining categories (Dunnage, Kegs, Non-Alcohol, REF, and STR Supplies) each represent less than 1% of total sales, indicating they are not major contributors to overall revenue.
-   ![Retail Sales Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Total%20Retail%20Sales%20by%20monthly.jpg) 
+   ![Retail Sales Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Total%20Retail%20Sales%20by%20monthly.jpg) 
    - Total retail sales during the 7th month (July), reaching the highest value of 277,634.It shows seasonal or specfic events druing this moth  
 
 ---
 
 2. 📦 **Warehouse Sales Insights**:  
-   ![Warehouse Sales Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Warehouse%20Sales%20by%20Item%20Type.jpg)  
+   ![Warehouse Sales Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Warehouse%20Sales%20by%20Item%20Type.jpg)  
    - Beer : Beer constitutes a massive 82.4% of all dominates warehouse sales.
    - Wine : Wine represents 14.6% of sales, a significantly smaller portion compared to beer.
    - other categories: All other categories (Dunnage, Kegs, Liquor, Non-Alcohol, REF, and STR Supplies) each account for less than 1% of total sales, indicating they have a negligible impact on overall warehouse revenue.  
@@ -101,12 +101,12 @@ Visualization (checked_outlier.png): This barplot summary identifies features wi
 ---
 
 3. 🔄 **Returns Trends**:  
-   ![Returns Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Return%20by%20years.jpg)
+   ![Returns Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Return%20by%20years.jpg)
    - 2017: A significant 71.4% of all returns occurred in 2017 massive returns.
    - 2019: 2019 accounted for 21.4% of the returns had a moderate amount of returns.
    - 2018: Saw few returns Only 7.1% of returns happened in 2018.
    - 2020: The chart indicates 0.0% returns for 2020 No returns in.
-   ![Return Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Transfers%20Return%20by%20years.jpg)  
+   ![Return Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Transfers%20Return%20by%20years.jpg)  
    - 2017 : In 2017 saw the highest proportion of returns, significant 58.3% of transfer returns occurred.
    - 2019 : In 2019 had a notable share of returns making it the second-highest year for returns, accounted for 27.9% of the returns.
    - 2018 and 2020 : In 2018 represents 8.3% of returns , while 2020 has the smallest share at 5.4% had smaller proportions. 
@@ -114,38 +114,38 @@ Visualization (checked_outlier.png): This barplot summary identifies features wi
 ---
 
 4. 🚚 **Transfers Trends Insights**:  
-   ![Transfers Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Retail%20Transfers%20by%20item%20type.jpg)
+   ![Transfers Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Retail%20Transfers%20by%20item%20type.jpg)
    - Liquor : It accounts for the largest portion of transfers at 37.3% to retail shops.
    - Wine and Beer : Wine represents 34.4% of transfers, while Beer makes up 26.5% are also frequently transferred in retail shops.
    - Other categories: The remaining categories (Dunnage, Kegs, Non-Alcohol, REF, and STR Supplies) each represent less than 1% of total transfers, indicating they are not frequently moved.
-   ![Transfers Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Total%20Retail%20Transfers%20by%20monthly.jpg)
+   ![Transfers Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Total%20Retail%20Transfers%20by%20monthly.jpg)
    - Peak Transfer Month: July 7 stands out with the highest number of transfers at 273,549, suggesting a significant event or seasonal factor driving increased activity during this period.
    - Consistent Activity: September 9 and November 11 also show notably high transfer numbers, indicating consistent activity throughout the year with potential spikes around certain periods.
    - Lowest Transfer Month: April 4 has the fewest transfers at 83,672, suggesting a potential lull in retail activity during this time.
 ---
 
 5. 📊 **Yearly Comparison**:  
-   ![Year Comparison Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Retail%20Transfers%20by%20years.jpg)
+   ![Year Comparison Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Retail%20Transfers%20by%20years.jpg)
    - 2017: 31.7% had stock transfer to retail shops
    - 2018: In 2018 had transferred 7.2% stock to retail shops lowest.
    - 2019: 44.9% of stock transferred in 2019 largest stock delivaried 
    - 2020: 16.2% of stock stock were transferred in 2020 
-   ![Reail Sales Graph](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Retails%20Sales%20by%20years.jpg)
+   ![Reail Sales Graph](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Retails%20Sales%20by%20years.jpg)
    - 2019 : It had the largest share, making it the most successful year represented for 44.4% of total sales.
    - 2017 : 31.8% of sales occurred in 2017, making it the second-highest performing year.
    - 2020 : 16.7% of sales took place in 2020.
    - 2018 : Only 7.1% of sales were recorded in 2018.
-   ![year comparison](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Warehouse%20Sales%20by%20years.jpg)
+   ![year comparison](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Warehouse%20Sales%20by%20years.jpg)
    - 2019 : has the largest share, accounting for 48.9% of total dispatches over the four years.
    - 2017 : 33.6%, indicating a significant portion of dispatches occurred that year.
    - 2020 : The accounts for 10.1%, less than half of the dispatches in 2017.
    - 2018 : It has the smallest share at 7.4%, showing the lowest dispatch activity among the four years.
-   ![Warehouse Year Dispatch](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Warehouse%20dispatch%20Units%20by%20years.jpg)
+   ![Warehouse Year Dispatch](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Warehouse%20dispatch%20Units%20by%20years.jpg)
    - 2017: 30.1% follow with 2019 it the second-highest performing year.
    - 2018: 6.7% had making sales in 2018.
    - 2019: 45.6% of warehouse sales had the largest sales.
    - 2020: In 2020 it only made 17.7% of sales across the warehouse.
-   ![years of warehouse,retail,tranfer](https://github.com/Nikhi001/Warehouse-And-Retail-Sales/blob/main/Years_with_warehouse_sales_and_retail_transfers_and_Retail_sales.jpg)
+   ![years of warehouse,retail,tranfer](https://github.com/Nikhi001/Warehouse-and-Retail-Sales-/blob/main/warehouse_and_retail%20images/Years_with_warehouse_sales_and_retail_transfers_and_Retail_sales.jpg)
    - Warehouse Sales (Blue Bars): It shows huge fluctuations. They are highest in 2019, followed by 2017, then 2020, and lowest in 2018.
    - Retail Transfers (Red Dotted Line with Markers): Also changing, not in the same way of warehouse sales. The transfers are highest in 2017 and 2019, lower in 2020, and lowest in 2018.
    - Retail Sales (Pink Bars): Follow the same trend as retail transfers. The highest is 2019 and 2017, lower in 2020, and lowest in 2018.
